@@ -1,0 +1,57 @@
+{
+  "model_performance": {
+    "XGBoost": {
+      "AUC": 0.9926236211975613,
+      "Accuracy": 0.9424269997518405,
+      "Precision": 0.9390320668831298,
+      "Recall": 0.9424269997518405,
+      "F1-Score": 0.9395035946994932
+    },
+    "LightGBM": {
+      "AUC": 0.9915296306394059,
+      "Accuracy": 0.941599801472413,
+      "Precision": 0.9378076558658364,
+      "Recall": 0.941599801472413,
+      "F1-Score": 0.9376469587295281
+    },
+    "Random Forest": {
+      "AUC": 0.9693236584129954,
+      "Accuracy": 0.891388865911159,
+      "Precision": 0.8693143321646414,
+      "Recall": 0.891388865911159,
+      "F1-Score": 0.8450504563838787
+    },
+    "Neural Network": {
+      "AUC": 0.9612331235165874,
+      "Accuracy": 0.8942840598891554,
+      "Precision": 0.8727241867082932,
+      "Recall": 0.8942840598891554,
+      "F1-Score": 0.8686122155325073
+    },
+    "Ensemble": {
+      "AUC": 0.9899953692066451,
+      "Accuracy": 0.9329969393663661,
+      "Precision": 0.9283990449389461,
+      "Recall": 0.9329969393663661,
+      "F1-Score": 0.9249665727315328
+    }
+  },
+  "best_model": "XGBoost",
+  "best_auc": 0.9926,
+  "feature_importance": {
+    "Satisfaction_Score": 0.450153031681694,
+    "Customer_Value_Score": 0.03459276045309288,
+    "Risk_Score": 0.190085201422781,
+    "CustServ Calls": 2.563437836049301,
+    "Account Length": 329.3855405740756,
+    "Churn_Binary": 0.11046405823475887,
+    "Total_Minutes": 1947.810919844487,
+    "Total_Charges": 118.15684209115723
+  },
+  "business_impact": {
+    "total_customers_test_set": 189938,
+    "total_net_business_benefit": 14357361.947176509,
+    "total_intervention_costs": 1123050.06329644,
+    "projected_roi_percentage": 1278.4258170142448
+  }
+}

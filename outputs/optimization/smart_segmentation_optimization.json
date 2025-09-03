@@ -1,0 +1,45 @@
+{
+  "optimization_focus": "Smart Customer Segmentation (6-class)",
+  "best_model": "XGBoost Optimized",
+  "best_accuracy": 0.9443295557945239,
+  "xgboost_params": {
+    "n_estimators": 625,
+    "max_depth": 4,
+    "learning_rate": 0.2842539893932711,
+    "subsample": 0.9497327922401265,
+    "colsample_bytree": 0.7637017332034828,
+    "min_child_weight": 2,
+    "gamma": 0.055021352956030146,
+    "reg_alpha": 0.15212112147976886,
+    "reg_lambda": 0.2623782158161189
+  },
+  "lightgbm_params": {
+    "n_estimators": 509,
+    "num_leaves": 97,
+    "learning_rate": 0.05433947661434233,
+    "feature_fraction": 0.8822634555704315,
+    "bagging_fraction": 0.7511572371061874,
+    "bagging_freq": 1,
+    "min_child_samples": 96,
+    "reg_alpha": 0.4828160165372797,
+    "reg_lambda": 0.40419867405823057
+  },
+  "business_impact": {
+    "total_revenue_impact": 2149543.985898,
+    "total_intervention_cost": 164092.766523,
+    "net_benefit": 1985451.219375,
+    "roi": 1209.9565760546247
+  },
+  "model_comparison": {
+    "Accuracy": {
+      "XGBoost Optimized": 0.9443295557945239,
+      "LightGBM Optimized": 0.9426751592356688,
+      "XGBoost Baseline": 0.9424269997518405
+    },
+    "AUC": {
+      "XGBoost Optimized": 0.9917462848317766,
+      "LightGBM Optimized": 0.9922457228248984,
+      "XGBoost Baseline": 0.9926236211975613
+    }
+  }
+}

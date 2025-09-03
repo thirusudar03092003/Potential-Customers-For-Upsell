@@ -1,0 +1,107 @@
+{
+  "dataset_shape": [
+    60445,
+    52
+  ],
+  "total_customers": 60445,
+  "overall_churn_rate": 0.11046405823475887,
+  "customer_category_summary": {
+    "DO_NOT_DISTURB": {
+      "Count": 8238,
+      "Churn_Rate": 0.0,
+      "Avg_Revenue": 127.36764094440399,
+      "Satisfaction_Score": 0.8236465161446953,
+      "Customer_Value_Score": 0.03931654982443569,
+      "Risk_Score": 0.047681476086428747,
+      "CustServ Calls": 0.0,
+      "Account Length": 455.4729303228939,
+      "Priority_Score": 3.8817674192765237,
+      "Percentage": 13.628918851848788
+    },
+    "FIX_FIRST_THEN_UPSELL": {
+      "Count": 14248,
+      "Churn_Rate": 0.0,
+      "Avg_Revenue": 125.26507963924762,
+      "Satisfaction_Score": 0.4519932622122403,
+      "Customer_Value_Score": 0.03529838075930576,
+      "Risk_Score": 0.3272038180797305,
+      "CustServ Calls": 5.443851768669287,
+      "Account Length": 299.1853593486805,
+      "Priority_Score": 82.84475014037058,
+      "Percentage": 23.571842170568285
+    },
+    "GENTLE_UPSELL": {
+      "Count": 3623,
+      "Churn_Rate": 0.0,
+      "Avg_Revenue": 122.70598752415125,
+      "Satisfaction_Score": 0.6031465636213083,
+      "Customer_Value_Score": 0.03165815053368709,
+      "Risk_Score": 0.03731714049130555,
+      "CustServ Calls": 0.789125034501794,
+      "Account Length": 28.7057686999724,
+      "Priority_Score": 51.26632602134749,
+      "Percentage": 5.993878732732235
+    },
+    "MINIMAL_CONTACT": {
+      "Count": 909,
+      "Churn_Rate": 0.0011001100110011,
+      "Avg_Revenue": 93.94535346534653,
+      "Satisfaction_Score": 0.33729372937293733,
+      "Customer_Value_Score": 0.023038390244415414,
+      "Risk_Score": 0.35236523652365237,
+      "CustServ Calls": 6.094609460946095,
+      "Account Length": 21.742574257425744,
+      "Priority_Score": 10.691151707332464,
+      "Percentage": 1.5038464719993383
+    },
+    "PRIORITY_UPSELL_RETENTION": {
+      "Count": 6676,
+      "Churn_Rate": 1.0,
+      "Avg_Revenue": 120.64521135410425,
+      "Satisfaction_Score": 0.17871479928100661,
+      "Customer_Value_Score": 0.036769562598268545,
+      "Risk_Score": 0.6305572198921511,
+      "CustServ Calls": 2.7543439185140803,
+      "Account Length": 385.3801677651288,
+      "Priority_Score": 86.09924275806678,
+      "Percentage": 11.044751426917031
+    },
+    "STANDARD_UPSELL": {
+      "Count": 26751,
+      "Churn_Rate": 0.0,
+      "Avg_Revenue": 111.12000632873537,
+      "Satisfaction_Score": 0.38500990617173186,
+      "Customer_Value_Score": 0.033009059962362045,
+      "Risk_Score": 0.06615827445702965,
+      "CustServ Calls": 1.8913685469702066,
+      "Account Length": 343.8438563044372,
+      "Priority_Score": 31.650452998118105,
+      "Percentage": 44.25676234593432
+    }
+  },
+  "priority_level_distribution": {
+    "LOW": "44.2",
+    "HIGH": "34.3",
+    "MINIMAL": "15.1",
+    "MEDIUM": "6.1",
+    "CRITICAL": "0.3"
+  },
+  "key_feature_drivers": {
+    "Satisfaction_Score": 0.450153031681694,
+    "Customer_Value_Score": 0.03459276045309288,
+    "Risk_Score": 0.190085201422781,
+    "CustServ Calls": 2.563437836049301,
+    "Account Length": 329.3855405740756,
+    "Churn_Binary": 0.11046405823475887,
+    "Total_Minutes": 1947.810919844487,
+    "Total_Charges": 118.15684209115723
+  },
+  "actionable_recommendations": [
+    "Preserve relationships with Happy Loyalists (DO_NOT_DISTURB) by avoiding unsolicited upsells.",
+    "Prioritize high-touch retention-focused upsells for At-Risk VIPs (PRIORITY_UPSELL_RETENTION).",
+    "Address service issues first for Problem Solvers (FIX_FIRST_THEN_UPSELL) before proposing upgrades.",
+    "Gently introduce premium features to New Prospects (GENTLE_UPSELL) to encourage growth.",
+    "Utilize standard marketing campaigns for Regular Prospects (STANDARD_UPSELL).",
+    "Minimize direct contact for Low Priority (MINIMAL_CONTACT) customers to optimize resources."
+  ]
+}

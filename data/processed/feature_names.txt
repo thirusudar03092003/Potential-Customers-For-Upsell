@@ -1,0 +1,52 @@
+Phone Number
+Account Length
+VMail Message
+Day Mins
+Day Calls
+Day Charge
+Eve Mins
+Eve Calls
+Eve Charge
+Night Mins
+Night Calls
+Night Charge
+Intl Mins
+Intl Calls
+Intl Charge
+CustServ Calls
+Churn
+Churn_Binary
+Total_Minutes
+Total_Calls
+Total_Charges
+Avg_Call_Duration
+Day_Call_Duration
+Eve_Call_Duration
+Night_Call_Duration
+Day_Usage_Ratio
+Eve_Usage_Ratio
+Night_Usage_Ratio
+Intl_Usage_Ratio
+Revenue_Per_Minute
+Day_Revenue_Rate
+Eve_Revenue_Rate
+Night_Revenue_Rate
+Account_Length_Months
+Usage_Per_Day
+Revenue_Per_Day
+Service_Calls_Per_Month
+Is_Heavy_Day_User
+Is_Heavy_Eve_User
+Is_Heavy_Night_User
+Is_Intl_User
+Is_High_Service_User
+Has_Voicemail
+Is_High_Value_Customer
+Satisfaction_Score
+Customer_Value_Score
+Risk_Score
+Customer_Category
+Priority_Score
+Priority_Level
+Upsell_Priority_Encoded
+Engagement_Score
