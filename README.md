@@ -129,7 +129,7 @@ Follow these steps to set up and run the Streamlit application locally.
 
 ```bash
 https://github.com/thirusudar03092003/Potential-Customers-For-Upsell.git
-cd Potential-Customers-For-Upsell.git
+cd Potential-Customers-For-Upsell
 ```
 
 ### **2. Set up Virtual Environment**
