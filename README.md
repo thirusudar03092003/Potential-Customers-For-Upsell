@@ -186,11 +186,12 @@ The Streamlit dashboard provides several pages for interacting with the Smart Cu
 
 ## 👥 Team Members
 
-- Thirusudar S L
+- Thiru Sudar S L
 - Mohanarajan Reddy
-- Nithusha Shree
-- Sharmi K
 - Mohammad Hajee
+- Nithusha Shree T
+- Sharmi K
+
 
 ## 📄 License
 
