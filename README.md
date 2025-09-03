@@ -1,5 +1,10 @@
 # Potential Customers for Upsell
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://potential-customers-for-upsell-bbvhvqy5woz2d5ocwbd4vi.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge)](https://potential-customers-for-upsell-bbvhvqy5woz2d5ocwbd4vi.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/thirusudar03092003/Potential-Customers-For-Upsell)
+
+> **🌐 [Try the Interactive Dashboard](https://potential-customers-for-upsell-bbvhvqy5woz2d5ocwbd4vi.streamlit.app/)** - Experience 2,653% ROI visualization and real-time customer segmentation!
 
 ## 🚀 Project Overview
 
