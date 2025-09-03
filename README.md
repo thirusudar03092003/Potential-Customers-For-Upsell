@@ -123,8 +123,8 @@ Follow these steps to set up and run the Streamlit application locally.
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/mohanarajanreddy/ai-customer-upsell-prediction.git
-cd ai-customer-upsell-prediction
+https://github.com/thirusudar03092003/Potential-Customers-For-Upsell.git
+cd Potential-Customers-For-Upsell.git
 ```
 
 ### **2. Set up Virtual Environment**
